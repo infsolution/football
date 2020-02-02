@@ -1,0 +1,35 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/Jogador.tscn" type="PackedScene" id=1]
+
+[node name="Time" type="Node2D"]
+
+[node name="Zageiro1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 196.367, 805.611 )
+
+[node name="Zageiro2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 405.323, 805.611 )
+
+[node name="LaateralDireito" parent="." instance=ExtResource( 1 )]
+position = Vector2( 521.129, 725.05 )
+
+[node name="LateralEsquerdo" parent="." instance=ExtResource( 1 )]
+position = Vector2( 85.5961, 722.532 )
+
+[node name="Volante1" parent="." instance=ExtResource( 1 )]
+position = Vector2( 438.051, 563.927 )
+
+[node name="Volante2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 171.192, 568.962 )
+
+[node name="ExtremoDireito" parent="." instance=ExtResource( 1 )]
+position = Vector2( 523.647, 354.972 )
+
+[node name="ExtremoEsquerdo" parent="." instance=ExtResource( 1 )]
+position = Vector2( 110.771, 362.525 )
+
+[node name="Meia" parent="." instance=ExtResource( 1 )]
+position = Vector2( 319.727, 375.112 )
+
+[node name="CentroAvante" parent="." instance=ExtResource( 1 )]
+position = Vector2( 181.262, 229.095 )

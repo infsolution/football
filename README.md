@@ -1,2 +1,2 @@
 # football
-Game de futebol de botal em godot
+Game de futebol de botão em godot
